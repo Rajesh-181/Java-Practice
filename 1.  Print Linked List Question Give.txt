@@ -1,0 +1,12 @@
+1.  Print Linked List Question: Given the head of a linked list, print
+    the data of each node on a new line.
+
+Answer: static void printLinkedList(SinglyLinkedListNode head) {
+SinglyLinkedListNode temp = head;
+
+    while (temp != null) {
+        System.out.println(temp.data);
+        temp = temp.next;
+    }
+
+}
